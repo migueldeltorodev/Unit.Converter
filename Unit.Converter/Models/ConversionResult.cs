@@ -1,4 +1,4 @@
 ﻿namespace Unit.Converter.Models
 {
-    public record ConversionResult(double OriginalValue, string FromUnit, double ConvertedValue, string ToValue);
+    public record ConversionResult(double OriginalValue, string FromUnit, double ConvertedValue, string ToUnit);
 }
